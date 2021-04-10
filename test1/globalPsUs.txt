@@ -1,0 +1,8 @@
+Este codigo genera un archivo para guardar las credenciales de git y no tener
+que bolver a escribirlas
+
+git config --global credential.helper store
+
+en esta paguina esta toda la informacion adicional por si se necesita
+
+https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
