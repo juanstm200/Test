@@ -1,0 +1,9 @@
+Este es el archivo gia para crear un scrip para comandos basicos de git
+
+#!/bin/bas
+
+git add "Nombre del archivo a subir"
+echo "Ingrese el commit"
+read var // le pide al usuario que ingrese el nombre del commit y ser guardado
+git commit -m $var // ejecuta lo guardado por la variable var
+git push  // Determinar si esta en master o en otra rama dentro del repo
